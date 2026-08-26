@@ -23,4 +23,6 @@ fun main() {
     construirAcuario()
     println("---")
     crearPeces()
+    println("---")
+    hacerDecoraciones()
 }
