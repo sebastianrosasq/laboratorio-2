@@ -1,5 +1,4 @@
 package acuario
-
 import kotlin.math.PI
 
 open class Acuario(open var largo: Int = 100, open var ancho: Int = 20, open var alto: Int = 40) {
@@ -27,7 +26,6 @@ open class Acuario(open var largo: Int = 100, open var ancho: Int = 20, open var
     }
 }
 
-// Subclase TanqueTorre (Herencia)
 class TanqueTorre(override var alto: Int, var diametro: Int) :
     Acuario(alto = alto, ancho = diametro, largo = diametro) {
 
