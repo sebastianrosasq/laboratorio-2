@@ -35,6 +35,7 @@ class TanqueTorre(override var alto: Int, var diametro: Int) :
             alto = ((valor * 1000 / PI) / ((ancho / 2.0) * (largo / 2.0))).toInt()
         }
 
-    override var agua = volumen * 0.8
+    override var agua: Double = 0.0
+        get() = volumen * 0.8
     override val forma = "cilindro"
 }
